@@ -1,0 +1,60 @@
+{
+  "name": "Kain",
+  "description": "The benchmark - a realistic 1000-day progression",
+  "days": [
+    {
+      "day": 1,
+      "physical": { "weight": 180, "pushups": 20, "pullups": 3, "plank": 30, "squat": 135, "bench": 95, "deadlift": 185, "run5k": 35 },
+      "mental": { "readingSpeed": 200, "booksRead": 0, "skills": [], "coursesCompleted": [] },
+      "financial": { "netWorth": 0, "monthlyIncome": 2500, "savings": 500 }
+    },
+    {
+      "day": 30,
+      "physical": { "weight": 178, "pushups": 30, "pullups": 5, "plank": 45, "squat": 155, "bench": 115, "deadlift": 205, "run5k": 32 },
+      "mental": { "readingSpeed": 220, "booksRead": 2, "skills": ["Basic Python"], "coursesCompleted": ["Python Basics"] },
+      "financial": { "netWorth": 1500, "monthlyIncome": 2800, "savings": 2000 }
+    },
+    {
+      "day": 60,
+      "physical": { "weight": 176, "pushups": 40, "pullups": 7, "plank": 60, "squat": 175, "bench": 135, "deadlift": 225, "run5k": 30 },
+      "mental": { "readingSpeed": 240, "booksRead": 4, "skills": ["Basic Python", "Git"], "coursesCompleted": ["Python Basics", "Version Control"] },
+      "financial": { "netWorth": 3500, "monthlyIncome": 3200, "savings": 4000 }
+    },
+    {
+      "day": 100,
+      "physical": { "weight": 174, "pushups": 50, "pullups": 10, "plank": 90, "squat": 205, "bench": 155, "deadlift": 255, "run5k": 28 },
+      "mental": { "readingSpeed": 260, "booksRead": 7, "skills": ["Python", "Git", "JavaScript"], "coursesCompleted": ["Python Basics", "Version Control", "Web Dev Fundamentals"] },
+      "financial": { "netWorth": 6500, "monthlyIncome": 3800, "savings": 7000 }
+    },
+    {
+      "day": 200,
+      "physical": { "weight": 172, "pushups": 65, "pullups": 15, "plank": 120, "squat": 245, "bench": 185, "deadlift": 295, "run5k": 26 },
+      "mental": { "readingSpeed": 300, "booksRead": 15, "skills": ["Python", "Git", "JavaScript", "React", "SQL"], "coursesCompleted": ["Python Basics", "Version Control", "Web Dev", "Database Design"] },
+      "financial": { "netWorth": 15000, "monthlyIncome": 5000, "savings": 15000 }
+    },
+    {
+      "day": 365,
+      "physical": { "weight": 170, "pushups": 80, "pullups": 20, "plank": 180, "squat": 285, "bench": 215, "deadlift": 335, "run5k": 24 },
+      "mental": { "readingSpeed": 350, "booksRead": 30, "skills": ["Python", "Git", "JavaScript", "React", "SQL", "Docker", "AWS"], "coursesCompleted": ["Full Stack", "Cloud Computing", "DevOps"] },
+      "financial": { "netWorth": 30000, "monthlyIncome": 7500, "savings": 25000 }
+    },
+    {
+      "day": 500,
+      "physical": { "weight": 168, "pushups": 90, "pullups": 25, "plank": 240, "squat": 315, "bench": 235, "deadlift": 365, "run5k": 22 },
+      "mental": { "readingSpeed": 400, "booksRead": 45, "skills": ["Python", "JavaScript", "React", "SQL", "Docker", "AWS", "Go", "Kubernetes"], "coursesCompleted": ["Full Stack", "Cloud", "DevOps", "System Design"] },
+      "financial": { "netWorth": 55000, "monthlyIncome": 10000, "savings": 45000 }
+    },
+    {
+      "day": 730,
+      "physical": { "weight": 165, "pushups": 100, "pullups": 30, "plank": 300, "squat": 345, "bench": 255, "deadlift": 395, "run5k": 21 },
+      "mental": { "readingSpeed": 450, "booksRead": 70, "skills": ["Python", "JavaScript", "React", "SQL", "Docker", "AWS", "Go", "Kubernetes", "Machine Learning"], "coursesCompleted": ["Full Stack", "Cloud", "DevOps", "System Design", "ML Fundamentals"] },
+      "financial": { "netWorth": 95000, "monthlyIncome": 15000, "savings": 75000 }
+    },
+    {
+      "day": 1000,
+      "physical": { "weight": 163, "pushups": 110, "pullups": 35, "plank": 360, "squat": 375, "bench": 275, "deadlift": 425, "run5k": 20 },
+      "mental": { "readingSpeed": 500, "booksRead": 100, "skills": ["Python", "JavaScript", "React", "SQL", "Docker", "AWS", "Go", "Kubernetes", "Machine Learning", "System Architecture"], "coursesCompleted": ["Full Stack", "Cloud Architecture", "DevOps", "System Design", "ML", "Leadership"] },
+      "financial": { "netWorth": 150000, "monthlyIncome": 20000, "savings": 120000 }
+    }
+  ]
+}

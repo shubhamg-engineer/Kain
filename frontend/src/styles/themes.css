@@ -1,0 +1,97 @@
+/* ===== DARK THEME (Cyberpunk/Survival) ===== */
+.theme-dark {
+  --bg-primary: #0a0e27;
+  --bg-secondary: #16213e;
+  --bg-tertiary: #1a1a2e;
+  --text-primary: #eaeaea;
+  --text-secondary: #a0a0a0;
+  --accent-primary: #00d9ff;
+  --accent-secondary: #ff0080;
+  --accent-gradient: linear-gradient(135deg, #00d9ff 0%, #ff0080 100%);
+  --success: #00ff88;
+  --warning: #ffaa00;
+  --danger: #ff3366;
+  --border: #2a2a4a;
+  --shadow: rgba(0, 217, 255, 0.2);
+}
+
+/* ===== LIGHT THEME (Clean/Motivational) ===== */
+.theme-light {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f7fa;
+  --bg-tertiary: #e8ecf1;
+  --text-primary: #1a1a1a;
+  --text-secondary: #606060;
+  --accent-primary: #2563eb;
+  --accent-secondary: #7c3aed;
+  --accent-gradient: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --border: #d1d5db;
+  --shadow: rgba(0, 0, 0, 0.1);
+}
+
+/* ===== COMIC THEME (Panels/Speech Bubbles) ===== */
+.theme-comic {
+  --bg-primary: #fffef0;
+  --bg-secondary: #fff9db;
+  --bg-tertiary: #ffeaa7;
+  --text-primary: #2d3436;
+  --text-secondary: #636e72;
+  --accent-primary: #e17055;
+  --accent-secondary: #6c5ce7;
+  --accent-gradient: linear-gradient(135deg, #e17055 0%, #6c5ce7 100%);
+  --success: #00b894;
+  --warning: #fdcb6e;
+  --danger: #d63031;
+  --border: #2d3436;
+  --shadow: 4px 4px 0px rgba(0, 0, 0, 0.8);
+}
+
+/* Apply theme colors */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+}
+
+.card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 6px var(--shadow);
+}
+
+.theme-comic .card {
+  border: 3px solid var(--border);
+  border-radius: 0;
+  box-shadow: var(--shadow);
+}
+
+.btn-primary {
+  background: var(--accent-gradient);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+}
+
+.theme-comic .btn-primary {
+  border: 3px solid var(--border);
+  border-radius: 0;
+  box-shadow: 4px 4px 0px var(--border);
+}
+
+.theme-comic .btn-primary:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px var(--border);
+}
